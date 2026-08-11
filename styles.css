@@ -44,10 +44,11 @@ body {
 .name {
   font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: 600;
-  font-size: clamp(2.6rem, 6.5vw, 4.5rem);
+  font-size: clamp(1.85rem, 6.2vw, 4.5rem);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   line-height: 1;
+  white-space: nowrap;
   color: var(--ink);
   animation: fade-up 0.8s var(--ease) both;
 }
